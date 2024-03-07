@@ -14,9 +14,7 @@ def test_landing():
     landing = app.test_client().get('/')
     html = landing.data.decode()
 
-    assert landing.status_code == 200
-
-    x 0 "Hola, esta linea da fallos" 
+    assert landing.status_code == 200 
 
     # Check text
     assert "Hello Docker" in html
