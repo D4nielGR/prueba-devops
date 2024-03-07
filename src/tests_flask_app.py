@@ -15,8 +15,6 @@ def test_landing():
     html = landing.data.decode()
 
     assert landing.status_code == 200
-
-    X 0 "Esta línea da fallos, esto deberia de ser un fallo de testing" 
     
     X = "Esta línea da fallos, esto deberia de ser un fallo de linting" 
 
