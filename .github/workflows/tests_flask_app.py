@@ -16,6 +16,8 @@ def test_landing():
 
     assert landing.status_code == 200
 
+    X 0 "Esta línea da fallos" 
+
     # Check text
     assert "Hello Docker" in html
     assert "It is currently " in html
